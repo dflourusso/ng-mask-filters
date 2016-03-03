@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='app' ng-cloak>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Usage Example for NgTiddle</title>
+  </head>
+
+  <body ng-controller="ctrl">
+
+    <div class="container" style="margin: 100px">
+      <p>Cep: {{'88888888' | ngMaskFilters:'00000-000'}}</p>
+      <p>Telefone: {{'4433333333' | ngMaskFilters:'99 00009-0000'}}</p>
+      <p>CPF: {{'99999999999' | ngMaskFilters:'000.000.000-00'}}</p>
+    </div>
+
+    <script src="../bower_components/string-mask/src/string-mask.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+
+    <script src="../dist/ng-mask-filters.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
