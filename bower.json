@@ -1,12 +1,12 @@
 {
   "name": "ng-mask-filters",
   "version": "0.1.1",
-  "description": "Angularjs App Client to Tiddle GEM",
+  "description": "Angularjs plugin to make custom mask filters",
   "author": "Daniel Fernando Lourusso",
   "license": "MIT",
   "homepage": "dflourusso.com.br",
   "main": [
-    "dist/ng-tiddle.js"
+    "dist/ng-mask-filters.js"
   ],
   "ignore": [
     "**/.*",
