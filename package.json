@@ -1,6 +1,6 @@
 {
   "name": "ng-mask-filters",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Angularjs plugin to make custom mask filters",
   "main": "dist/mask-filters-auth.js",
   "scripts": {
