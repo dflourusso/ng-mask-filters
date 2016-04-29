@@ -1,4 +1,4 @@
 class NgMaskCpf extends Filter
-  constructor: (NgStringMask) ->
+  constructor: (NgStringMask, FORMATS) ->
     return (input) ->
-      NgStringMask('000.000.000-00').apply input
+      NgStringMask(FORMATS.cpf).apply input

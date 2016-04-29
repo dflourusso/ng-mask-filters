@@ -1,4 +1,4 @@
 class NgMaskCnpj extends Filter
-  constructor: (NgStringMask) ->
+  constructor: (NgStringMask, FORMATS) ->
     return (input) ->
-      NgStringMask('00.000.000/0000-00').apply input
+      NgStringMask(FORMATS.cnpj).apply input
