@@ -23,7 +23,24 @@ angular.module('app', ['ng-mask-filters']);
 
 ### Usage
 
-Only add the filter with the format
+Only add the filter:
+
+```html
+  <div>Phone Number: {{'554433224455' | ngMaskFone }}</div>
+```
+> Result: "Phone Number: +55 (44) 3322-4455"
+
+
+Options available
+
+* ngMaskCep
+* ngMaskCnpj
+* ngMaskCpf
+* ngMaskCpfCnpj
+* ngMaskFone
+* ngMaskPlaca
+
+For another filters use `ngMaskFilters` with the format
 
 ```html
   <div>Phone Number: {{'554433224455' | ngMaskFilters:'+00 (00) 0000-0000'}}</div>
@@ -37,3 +54,7 @@ This plugin uses the [**string-mask**](https://github.com/the-darc/string-mask) 
 ### Author
 
 [Daniel Fernando Lourusso](http://dflourusso.com.br)
+
+### Contributors
+
+[Marcos Paliari](https://github.com/paliari)
